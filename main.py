@@ -5,5 +5,5 @@ for i in list:
     ans=ans+i
 print("Sum=",ans)
 print("Average=",ans/len(list))
-print("Lowest number=",list[0])
-print("Highest number=",list[-1])
+print("Lowest number=",min(list))
+print("Highest number=",max(list))
